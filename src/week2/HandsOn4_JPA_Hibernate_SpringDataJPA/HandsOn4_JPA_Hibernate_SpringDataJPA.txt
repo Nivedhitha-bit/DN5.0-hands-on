@@ -1,0 +1,32 @@
+# Hands-on 4: Difference between JPA, Hibernate and Spring Data JPA
+
+## JPA
+- Java Persistence API (Specification)
+- Defines standards for ORM
+- Does not provide implementation
+
+## Hibernate
+- ORM Framework
+- Implements JPA
+- Handles mapping between Java objects and database tables
+
+## Spring Data JPA
+- Built on top of JPA
+- Reduces boilerplate code
+- Provides JpaRepository
+- Automatically manages transactions
+
+## Comparison
+
+| JPA | Hibernate | Spring Data JPA |
+|-----|-----------|-----------------|
+| Specification | Implementation | Spring abstraction |
+| Defines rules | Performs ORM | Simplifies CRUD operations |
+
+## Hibernate Example
+
+(Include the code from the handout.)
+
+## Spring Data JPA Example
+
+(Include the repository and service code from the handout.)
